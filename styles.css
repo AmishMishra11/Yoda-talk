@@ -9,17 +9,15 @@ body {
   margin: 0px;
 }
 
-/* container */
 .container {
   padding: 0rem 1rem;
 }
 
 .container-center {
-  max-width: 600px;
+  max-width: 45%;
   margin: auto;
 }
 
-/* navigation */
 .navigation {
   background-color: var(--primary-color);
   color: black;
@@ -31,27 +29,28 @@ body {
   font-size: large;
   font-size: 2rem;
 }
-
-.column {
+.img {
+  margin-left: 2rem;
+  height: 450px;
+  width: 300px;
+}
+.leftbox {
+  padding-bottom: 2rem;
   float: left;
-  width: 30.33%;
-  padding: 5px;
+  width: 25%;
 }
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.column .header {
+.leftbox h2 {
   text-align: center;
 }
-.img2 {
-  padding-left: 4rem;
-  height: 381px;
+.rightbox {
+  padding-bottom: 2rem;
+  float: right;
+  width: 25%;
 }
-/* textarea */
+.rightbox h2 {
+  text-align: center;
+}
+
 .textarea {
   margin-top: 3rem;
   margin-bottom: 1rem;
@@ -63,7 +62,6 @@ body {
   font-family: "Source Code Pro", monospace;
 }
 
-/* button */
 .button {
   margin-bottom: 1rem;
   display: block;
@@ -72,7 +70,6 @@ body {
   font-family: "Source Code Pro", monospace;
 }
 
-/* output */
 .translated {
   overflow: scroll;
   margin-top: 1rem;
@@ -86,8 +83,8 @@ body {
   font-family: "Source Code Pro", monospace;
 }
 
-/* footer */
 .footer {
+  margin-top: 3.5rem;
   background-color: var(--primary-color);
   color: black;
   padding: 1.5rem 0rem;
